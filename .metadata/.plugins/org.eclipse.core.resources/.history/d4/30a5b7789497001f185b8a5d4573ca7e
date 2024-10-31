@@ -9,7 +9,6 @@ public class Level0_strPrint {
 		String a = sc.nextLine();
 		
 		System.out.println(a);
-		sc.close();
 
 	}
 
