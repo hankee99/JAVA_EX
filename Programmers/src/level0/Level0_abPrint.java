@@ -1,0 +1,22 @@
+package level0;
+import java.util.Scanner;
+/*입출력 예
+입력 #1
+4 5
+
+출력 #1
+a = 4
+b = 5
+*/
+public class Level0_abPrint {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.println(a + b);
+
+	}
+
+}
